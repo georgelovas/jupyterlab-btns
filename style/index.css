@@ -1,0 +1,32 @@
+/* Toolbar icons */
+.gl-CellsUpIcon {
+    background-color: var(--jp-inverse-layout-color3);
+    -webkit-mask-image: url(./caret-up-empty-thin.svg);
+    mask-image: url(./caret-up-empty-thin.svg);
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.gl-CellsDownIcon {
+    background-color: var(--jp-inverse-layout-color3);
+    -webkit-mask-image: url(./caret-down-empty-thin.svg);
+    mask-image: url(./caret-down-empty-thin.svg);
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.gl-RunAllIcon {
+    background-color: var(--jp-inverse-layout-color3);
+    -webkit-mask-image: url(./fast_forward.svg);
+    mask-image: url(./fast_forward.svg);
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.gl-RestartRunAllIcon {
+    background-color: var(--jp-inverse-layout-color3);
+    -webkit-mask-image: url(./fast_froward_refresh.svg);
+    mask-image: url(./fast_froward_refresh.svg);
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
