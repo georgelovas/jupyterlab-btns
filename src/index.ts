@@ -38,7 +38,7 @@ class OutputAutoScroll implements DocumentRegistry.IWidgetExtension<NotebookPane
         // Create a toolbar button
         let btnCellsUp = new ToolbarButton({
             className: 'btnCellUp',
-            iconClassName: .gl-CellsUpIcon',
+            iconClassName: '.gl-CellsUpIcon',
             onClick: cbCellsUp,
             tooltip: 'Move Cells Up'
         });
@@ -46,7 +46,7 @@ class OutputAutoScroll implements DocumentRegistry.IWidgetExtension<NotebookPane
         // Create a toolbar button
         let btnCellsDown = new ToolbarButton({
             className: 'btnCellDown',
-            iconClassName: .gl-CellsDownIcon',
+            iconClassName: '.gl-CellsDownIcon',
             onClick: cbCellsDown,
             tooltip: 'Move Cells Down'
         });
@@ -54,7 +54,7 @@ class OutputAutoScroll implements DocumentRegistry.IWidgetExtension<NotebookPane
         // Create a toolbar button
         let btnRunAll = new ToolbarButton({
             className: 'btnRunAll',
-            iconClassName: .gl-RunAllIcon',
+            iconClassName: '.gl-RunAllIcon',
             onClick: cbRunAll,
             tooltip: 'Run All Cells'
         });
@@ -62,7 +62,7 @@ class OutputAutoScroll implements DocumentRegistry.IWidgetExtension<NotebookPane
         // Create a toolbar button
         let btnRestartRunAll = new ToolbarButton({
             className: 'btnRunAll',
-            iconClassName: .gl-RestartRunAllIcon',
+            iconClassName: '.gl-RestartRunAllIcon',
             onClick: cbRestartRunAll,
             tooltip: 'Restart Kernel and Run All Cells'
         });
