@@ -1,4 +1,4 @@
-# @georgelovsa/btns
+# @georgelovas/btns
 
 Add 'Cells Up', 'Cells Down', 'Run all' and 'Restart kernel and Run All' buttons into the toolbar
 
